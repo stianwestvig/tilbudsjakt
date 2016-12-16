@@ -16,3 +16,8 @@ MVP first:
   - registration form
   - search
   - item view
+
+## If github permission denied
+
+`eval "$(ssh-agent -s)"`
+`ssh-add ~/.ssh/github_rsa`
