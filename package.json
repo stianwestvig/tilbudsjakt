@@ -1,0 +1,28 @@
+{
+  "name": "tilbudsjakt",
+  "version": "1.0.0",
+  "description": "MVP first:",
+  "main": "server.js",
+  "scripts": {
+    "scss": "node-sass app/styling/styles.scss app/static/styles.css",
+    "start": "node ./app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stianwestvig/tilbudsjakt.git"
+  },
+  "author": "Stian Westvig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stianwestvig/tilbudsjakt/issues"
+  },
+  "homepage": "https://github.com/stianwestvig/tilbudsjakt#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.0.0"
+  }
+}
