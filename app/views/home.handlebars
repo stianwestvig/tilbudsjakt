@@ -1,4 +1,8 @@
 <div class="page-home">
-  <h1>Tilbudsjakt</h1>
-  <p>Hei {{user.name}}</p>
+  <h2>Finn et tilbud</h2>
+  <ul>
+    {{#each offers}}
+      <li><a href="/tilbud/{{id}}">{{title}}</a></li>
+    {{/each}}
+  </ul>
 </div>

@@ -8,6 +8,7 @@ const handleError = require('./routes/error');
 
 const app = express();
 const port = process.env.PORT || 3000;
+const CONCURRENCY = process.env.WEB_CONCURRENCY || 1; // todo
 
 app.engine('handlebars', handlebars({
   defaultLayout: 'main',

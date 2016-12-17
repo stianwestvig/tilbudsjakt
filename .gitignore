@@ -51,7 +51,6 @@ jspm_packages
 .yarn-integrity
 
 
-
 ### Windows ###
 # Windows image file caches
 Thumbs.db
@@ -72,6 +71,11 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+### Mac OSX ###
+.DS_Store
 
 ### Git ###
 *.orig
+
+### Heroku ###
+/*.env
