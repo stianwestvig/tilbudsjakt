@@ -19,5 +19,12 @@ MVP first:
 
 ## If github permission denied
 
-`eval "$(ssh-agent -s)"`
-`ssh-add ~/.ssh/github_rsa`
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github_rsa
+
+
+
+## Heroku
+heroku logs --app tilbudsjakt
+
+

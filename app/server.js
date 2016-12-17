@@ -7,6 +7,7 @@ const api = require('./routes/api');
 const handleError = require('./routes/error');
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 app.engine('handlebars', handlebars({
   defaultLayout: 'main',
@@ -20,6 +21,6 @@ app.use('/api', api);
 app.use('/', web);
 app.use(handleError);
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('App is now running on port 3000');
 });
