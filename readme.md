@@ -26,5 +26,12 @@ ssh-add ~/.ssh/github_rsa
 
 ## Heroku
 heroku logs --app tilbudsjakt
+heroku logs --tail --app tilbudsjakt
+
+heroku local web (starts from Procfile)
+heroku run bash
+
+Config vars
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#define-config-vars
 
 
